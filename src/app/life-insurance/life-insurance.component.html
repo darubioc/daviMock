@@ -1,0 +1,56 @@
+<div class="container">
+  <div class="header-container">
+    <img src="../../assets/img/familia.svg" alt="" />
+    <p class="roboto-bold title-size center-text">Seguro Vida Online</p>
+  </div>
+  <div class="line-1"></div>
+  <div>
+    <p class="roboto-bold content-text-size">¿Quiere proteger a su familia?</p>
+    <p class="padding-2-0 roboto-regular content-text-size">
+      Cubra los gastos de su hogar en caso de:
+    </p>
+    <ul>
+      <li>
+        <p class="padding-2-0 roboto-regular content-text-size">
+          Muerte por cualquier causa.
+        </p>
+      </li>
+      <li>
+        <p class="padding-2-0 roboto-regular content-text-size">
+          Incapacidad total y permanente.
+        </p>
+      </li>
+    </ul>
+  </div>
+  <p class="text-underlined center-text roboto-bold">
+    Ver Términos y Condiciones
+  </p>
+  <div class="confirmation-container">
+    <div class="confirmation-buton-container">
+      <button
+        (click)="sendConfirmation(false)"
+        class="button-gray-style"
+        mat-dialog-close
+      >
+        Omitir
+      </button>
+    </div>
+    <div class="confirmation-buton-container">
+      <button
+        (click)="sendConfirmation(true)"
+        class="button-red-style"
+        mat-dialog-close
+      >
+        Adquirir
+      </button>
+    </div>
+  </div>
+  <div class="footer">
+    <p class="roboto-regular center-text small-text-size">
+      Este seguro es expedido por
+    </p>
+    <p class="roboto-bold center-text small-text-size">
+      <strong>Seguros Bolivar S.A.</strong>
+    </p>
+  </div>
+</div>

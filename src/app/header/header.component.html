@@ -1,0 +1,26 @@
+<div>
+  <div class="flex-container red-dav-background space-evenly">
+    <img src="../../assets/img/Grupo 6.svg" alt="" />
+    <img src="../../assets/img/Grupo 5.svg" class="max-height-width-30" />
+  </div>
+  <div class="gray-dav-background full-width" style="height: 92px">
+    <div class="name-content">
+      <span>CRISTIAN DAVID ARIAS CORREA</span>
+    </div>
+    <div class="menu-container">
+      <img class="menu-icon" src="../../assets/img/Grupo 13374.svg" alt="" />
+      <div class="vertical-flex-box">
+        <p class="p-title">
+          {{ title?.titleText ? title?.titleText : "Descripcion default" }}
+        </p>
+        <p class="p-text">
+          {{
+            title?.titleDescription
+              ? title?.titleDescription
+              : "Descripcion default"
+          }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

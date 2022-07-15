@@ -1,0 +1,67 @@
+<app-header [title]="this.title"></app-header>
+<div class="content">
+  <div class="flex-container">
+    <img class="back-icon" src="../../assets/img/Trazado 42.svg" alt="" />
+    <p class="list-p">Atrás</p>
+  </div>
+  <div>
+    <div class="row">
+      <div>
+        <img class="list-icon" src="../../assets/img/Cash.svg" alt="" />
+      </div>
+      <div>
+        <p class="list-p">
+          Reciba el pago de su pensión y otros depósitos en su cuenta.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div>
+        <img class="list-icon" src="../../assets/img/CellPhone.svg" alt="" />
+      </div>
+      <div>
+        <p class="list-p">
+          Programe de forma automática sus transferencias, el pago de productos
+          y servicios.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div>
+        <img class="list-icon" src="../../assets/img/Bill.svg" alt="" />
+      </div>
+      <div>
+        <p class="list-p">
+          Podrá obtener beneficios con aliados y tasas especiales en créditos
+          para pensionados.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div>
+        <img class="list-icon" src="../../assets/img/Receipt.svg" alt="" />
+      </div>
+      <div>
+        <p class="list-p">
+          Podrá acceder a un cupo de adelanto de pensión y a los productos
+          móviles que le ofrece Davivienda.
+        </p>
+      </div>
+    </div>
+    <div class="continue-section-container">
+      <div class="continue-p-container">
+        <div class="continue-p-size">
+          <p>
+            Este producto cuenta con el seguro de depósitos
+            <strong>FOGAFIN</strong>
+          </p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button (click)="openLifeInsuranceDialog()" class="button-style">
+          Continuar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,77 @@
+.content {
+  background-color: #eaeaea;
+  height: 100%;
+  padding: 3%;
+}
+.body-container {
+  height: 358px;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+.footer-container {
+  width: 100%;
+  text-align: center;
+  margin: 5%;
+}
+.title-container {
+  width: 100%;
+  background-color: #575757;
+  min-height: 28px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px 5px 0 0;
+}
+.title-container-p {
+  color: white;
+  margin: 0% 0% 0% 5%;
+}
+.header-container {
+  height: 119px;
+  padding: 3% 6% 0% 6%;
+  margin: 2% 2% 0 2%;
+  background-color: white;
+  border-radius: 5px;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+}
+.margin-0 {
+  margin: 0%;
+}
+.margin-2-2-0-2 {
+  margin: 2% 2% 0 2%;
+}
+.header-content-p {
+  margin: 0 4%;
+}
+.body-container-box {
+  margin: 2%;
+  background-color: #eeeeee;
+  padding: 2%;
+  border-radius: 5px;
+}
+.roboto-bold {
+  font-family: "Roboto,Bold";
+  color: #575757;
+}
+.content-text-size {
+  font-size: 13px;
+}
+.content-medium-size {
+  font-size: 14px;
+}
+.button-style {
+  height: 39px;
+  width: 130px;
+  background-color: #dd141d;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  font-family: "Roboto,Bold";
+  font-size: 18px;
+}
+.roboto-regular {
+  font-family: "Roboto,Regular";
+  color: #575757;
+}
